@@ -6,8 +6,9 @@
 h1{
     background-color: darkcyan;
     color: antiquewhite;
-    height: 5rem;
-    line-height: 5rem;
+    height: 4rem;
+    line-height: normal;
+    padding: 3rem;
 }
 .choice:hover{
     opacity: 0.5;
@@ -27,6 +28,7 @@ img{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
+    max-width: 100%;
 }
 .choices{
     display: flex;
@@ -52,9 +54,9 @@ font-size: 4rem;
 #msg{
     background-color: darkcyan;
     color: azure;
-    height: 5rem;
-    font-size: 2rem;
-    display: inline;
+    height: auto;
+    font-size: 1.9rem;
+    display: inline-block;
     padding: 1rem;
     border-radius: 2rem;
 }
